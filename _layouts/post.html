@@ -5,13 +5,8 @@ provider: false
 {% include JB/setup %}
 {% include themes/twitter/post.html %}
 <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key={{page.key}} data-title={{page.title}} data-url="请替换成文章的网址"></div>
+	<div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="http://yunxianli.com{{page.url}}"></div>
 <!-- 多说评论框 end -->
-<script type="text/javascript">
-	var url =  window.location.href,
-		dsth = document.getElementsByClassName('ds-thread')[0];
-	dsth.setAttribute('data-url',url);
-</script>
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"yunxianli"};
