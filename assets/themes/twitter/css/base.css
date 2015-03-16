@@ -1,3 +1,13 @@
 html{
 	overflow-y: scroll;
 }
+.archive-year{
+	font-size: 18px;
+	line-height: 30px;
+}
+ul li{
+	list-style: none;
+}
+.archive-link{
+	margin-left: 8px;
+}
